@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yTQ-5G-KPe"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmf-VB-iXT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="177" width="174" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="iLK-Ve-R7n"/>
                                 <exclude reference="bea-5l-ZrV"/>
                                 <exclude reference="UFH-ut-Br3"/>
+                                <exclude reference="Bmf-VB-iXT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="iLK-Ve-R7n"/>
                                 <include reference="bea-5l-ZrV"/>
                                 <include reference="UFH-ut-Br3"/>
+                                <include reference="Bmf-VB-iXT"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterMessageTextField" destination="bea-5l-ZrV" id="wuq-r8-noS"/>
                         <outlet property="enterNameTextField" destination="iLK-Ve-R7n" id="WYp-Bg-RV5"/>
                         <outlet property="messageLabel" destination="vbv-SI-2yB" id="XWJ-dr-wU7"/>
+                        <outlet property="nameLabel" destination="Bmf-VB-iXT" id="Ocz-vb-ZNZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
